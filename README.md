@@ -16,6 +16,8 @@ GraphSAGE defines different aggregation functions to combine the features of the
 - Pooling Aggregator: Applies a pooling operation (e.g., max pooling) to the neighbors' features.
 GraphSAGE is designed to be inductive, meaning it can generate embeddings for nodes that were not seen during training, making it suitable for dynamic and evolving graphs.
 
+My GraphSAGE model is implemented in 'GraphSAGE.ipynb'.
+
 More details can be found in this paper "Inductive Representation Learning on Large Graphs" https://arxiv.org/abs/1706.02216.
 
 
@@ -25,5 +27,9 @@ GAT introduces the attention mechanism to graph neural networks, allowing nodes 
 Each node learns to weigh its neighbors' features differently based on their importance. GAT employs multi-head self-attention layers, similar to the attention mechanism in Transformers. Multiple attention heads can capture different aspects of the neighborhood.
 
 Weighted neighbor features are aggregated using the attention coefficients, allowing the model to focus more on relevant neighbors. The aggregated features, combined with the node’s own features, are passed through a neural network layer to update the node’s embedding.
+
+There are two types of models in 'GAT.ipynb'.
+- 'GAT' is a static graph attention network.
+- 'GATv2' is a dynamic graph attention network.
 
 More details can be found in this paper "Graph Attention Networks" https://arxiv.org/abs/1710.10903.
