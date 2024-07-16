@@ -2,9 +2,9 @@
 
 In this project, I built a GCN model that classifies nodes in the Cora dataset, using GraphSAGE and GAT layers.
 
-For this project, we utilized the Cora dataset. Cora dataset consists of a citation network of scientific publications. Each publication (node) is connected by edges (citations) to other publications. The nodes are also labeled with classes that represent the topic of the paper.
+For this project, I utilized the Cora dataset. Cora dataset consists of a citation network of scientific publications. Each publication (node) is connected by edges (citations) to other publications. The nodes are also labeled with classes that represent the topic of the paper.
 
-Implemented GraphSAGE and GAT layers from scratch, using Pytorch.
+I Implemented GraphSAGE and GAT layers from scratch, using Pytorch.
 
 # GraphSAGE (Graph Sample and Aggregated)
 GraphSAGE is a framework for generating node embeddings in large graphs. Unlike traditional approaches that require the entire graph to be processed simultaneously, GraphSAGE generates embeddings in a more scalable way by sampling and aggregating features from a node’s local neighborhood.
