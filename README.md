@@ -1,4 +1,4 @@
-# Node_Classification_Via_Graph_Convolutional_Network
+# Node_Classification_via_Graph_Convolutional_Network
 
 In this project, I built a GCN model that classifies nodes in the Cora dataset, using GraphSAGE and GAT layers.
 
